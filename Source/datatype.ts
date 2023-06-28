@@ -14,4 +14,4 @@ age=88;
 // Typecasting
 let dob ="44";
 let  result = parseInt(dob)
-console.log(result)c
+console.log(result);
