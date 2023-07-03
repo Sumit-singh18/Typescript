@@ -50,3 +50,13 @@ var StatusCodes;
 console.log(StatusCodes.NotFound);
 // logs 200
 console.log(StatusCodes.Success);
+// TUPLE
+let ourtuple;
+ourtuple = [5, true, "Code Works"];
+console.log(ourtuple);
+ourtuple.push("New Push");
+console.log(ourtuple);
+// ReadOnly Tuple
+let tuples;
+tuples = [3, "coding"];
+console.log(tuples);

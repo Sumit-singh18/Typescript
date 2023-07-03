@@ -70,4 +70,20 @@ enum CardinalDirections {
 
 
 
-  
+  // TUPLE
+// You can push new tuple in Normal Tuple 
+let ourtuple : [number,boolean,string];
+ourtuple = [5,true,"Code Works"];
+console.log(ourtuple);
+ourtuple.push("New Push")
+console.log(ourtuple)
+
+// ReadOnly Tuple
+// you cannot push new tuple in the existing tuple due to the read only Mode.
+let tuples : readonly [number,string]
+tuples = [3,"coding"]
+console.log(tuples)
+
+
+
+// ANY DATATYPES
