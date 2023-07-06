@@ -11,13 +11,13 @@ age = 88;
 let dob = "44";
 let result = parseInt(dob);
 console.log(result);
-// Boolean 
+// Boolean
 // in js if you not give any value it will give false
 // In ts if you not assign any value it will give undefined
 let isValid = true;
 console.log(isValid);
 // Array
-let empList = ['Sumit', 'Sumit2', 'Sumit3'];
+let empList = ["Sumit", "Sumit2", "Sumit3"];
 console.log(empList);
 let depNum = [1, 2, 33, 4, 4, 3];
 console.log(depNum);
@@ -35,7 +35,6 @@ var CardinalDirections;
     CardinalDirections[CardinalDirections["South"] = 2] = "South";
     CardinalDirections[CardinalDirections["West"] = 3] = "West";
 })(CardinalDirections || (CardinalDirections = {}));
-;
 let currentDirection = CardinalDirections.North;
 // North is the first value so it logs '0'
 console.log(currentDirection);
@@ -51,12 +50,22 @@ console.log(StatusCodes.NotFound);
 // logs 200
 console.log(StatusCodes.Success);
 // TUPLE
+// You can push new tuple in Normal Tuple
 let ourtuple;
 ourtuple = [5, true, "Code Works"];
 console.log(ourtuple);
 ourtuple.push("New Push");
 console.log(ourtuple);
 // ReadOnly Tuple
+// you cannot push new tuple in the existing tuple due to the read only Mode.
 let tuples;
 tuples = [3, "coding"];
 console.log(tuples);
+// ANY DATATYPES
+// Any is a data type in TypeScript. Any type is used when we deal with third-party programs
+//  and expect any variable but we don’t know the exact type of variable.
+let temp;
+temp = "string";
+temp = 2;
+temp = true;
+console.log(temp);
