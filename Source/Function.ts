@@ -23,3 +23,8 @@ console.log(subs(6, 2,6));
 // Rest parameter
 
 // Generic Functions
+
+
+
+
+

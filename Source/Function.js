@@ -13,5 +13,8 @@ const multi = (num1, num2, num3) => {
 };
 console.log(multi(4, 5, 6));
 // Required Parameter
+// numm3 is required paramter iff nothing is given then it will take 30 by dfault
 const subs = (num1, num2, num3 = 30) => num1 - num2 - num3;
 console.log(subs(6, 2, 6));
+// Rest parameter
+// Generic Functions
